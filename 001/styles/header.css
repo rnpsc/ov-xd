@@ -1,0 +1,10 @@
+ .search {
+     min-width: 300px;
+ }
+ .searchfield {
+     flex: 1;
+ }
+.searchfield[placeholder]:empty:before {
+    content: attr(placeholder);
+
+}

@@ -1,0 +1,194 @@
+/*!
+ * Design and development of this functional prototype 7a
+ * Copyright 2020 Ronny Puschmann
+ * https://ronnypuschmann.de
+ */
+
+
+@media (orientation: portrait) {
+    html, body {
+        overflow-y: hidden;
+    }
+
+    .brandWrapper,
+    .search input,
+    .primaryActions .menuItem,
+    .breadcrumb-modeSwitch-wrapper,
+    .contentWrapper-left-sticky-header .folder-element,
+    .folder-ui i.overflow,
+    .ui i.overflow,
+    .folderItem-menu i.overflow,
+    .draft-read-switch,
+    .mode-switch,
+    .menuItem-label,
+    .contentWrapper-right,
+    .extUI {
+    display: none !important;
+    }
+
+    .topBar {
+        padding: 0.375rem 0.5rem 0.375rem 0.25rem;
+
+        background-image: linear-gradient(270deg, #0064D2 50%, #1455B4 100%);
+    }
+
+    .topBar .search .searchButton {
+        right: auto;
+    }
+
+    .topBar-leftWrapper {
+        flex:1;
+    }
+
+    .navigationHeader {
+        padding: 0 0rem 0 0.5rem;
+        background-image: linear-gradient(270deg, #0064D2 50%, #1455B4 100%);
+        overflow-y:hidden;
+    }
+    .primaryActions {
+        flex: 1;
+        align-items: stretch;
+    }
+    .primaryActionsOverflowMenuButton {
+        display: inline-flex;
+        padding-right: 0.5rem
+    }
+    .primaryActionsOverflowMenuButton.active:after  {
+        background-color: rgba(255,255,255,0.875);
+        left: 0rem;
+        right: -0.5625rem;
+        height: 3px;
+    }
+    .secondaryActions {
+        justify-content: flex-end;
+    }
+    .secondaryActions .menuItem {
+        font-size: 1.125rem;
+        padding: 0.875rem;
+        margin-right: 1.5rem;
+    }
+    .menuItem:after {
+        height: 3px;
+    }
+
+    .content {
+        padding:0;
+    }
+
+    .folder-ui {
+        padding:0;
+    }
+
+    .secondaryActions .menuItem:last-child {
+        margin-right:0;
+    }
+
+    .contentWrapper-left-sticky-header {
+        padding-right: 0rem;
+    }
+
+    .topBar .search .searchButton {
+        color: rgba(255,255,255,1);
+    }
+
+    .contentWrapper-left {
+        padding-top:0;
+        padding:0;
+        flex: 1;
+        background: #eee;
+    }
+
+    .breadcrumb {
+        line-height: 1.75;
+        padding-top: 0.75rem;
+        padding-bottom: 0.875rem;
+        border-bottom: solid 0px #eee;
+        background: #fff;
+        flex:1;
+        display: none;
+    }
+
+    .contentWrapper-left-scroll-area-child {
+        padding: 0 0.75rem 0 0.75rem;
+    }
+
+    .contentWrapper-left .folderItem {
+        margin-left:0;
+        margin-right:0;
+        background-image: linear-gradient(180deg, #f5f5f5 25%, #fafafa 100%);
+    }
+
+    .article-item {
+        padding: 0.5rem 1.25rem;
+        border-radius:3px;
+
+    }
+
+    .article-item:first-child {
+        margin: 1rem 0;
+    }
+
+    .ui {
+        display: flex;
+    }
+
+    .article-item .ui i {
+        margin-left:0;
+    }
+
+    .article-item .title {
+        line-height: 1.25;
+    }
+
+    .contentWrapper-left-sticky-header .folderItem.entered {
+        opacity: 1;
+        border-radius: 1px;
+    }
+
+    .contentWrapper-left-sticky-header {
+        z-index:1000;
+    }
+
+    .contentWrapper-left-sticky-header .folderItem.entered.scrolled {
+        opacity: 1;
+        box-shadow: -4px 14px 14px -8px rgba(0,0,0,0.1), 0 0px 4px 0px rgba(0,0,0,0.1),  4px 14px 14px -8px rgba(0,0,0,0.1);
+        background-image: linear-gradient(180deg, #f5f5f5 25%, #fafafa 100%);
+        border-radius: 1px;
+    }
+
+    .articleMeta-stacked .openTasks:before {
+        content: "→\00a0\00a0"
+    }
+    .secondaryActions .menuItem .highlightBorder {
+        background-color: #fff;
+        transition: all ease-in-out 140ms;
+        transition-delay: 140ms;
+        position: absolute;
+        bottom:0;
+        height:3px;
+        left: auto;
+        right:0;
+        width: 0;
+        border-radius: 3px 3px 0 0;
+        z-index: 1;
+
+    }
+
+    .secondaryActions .menuItem.active .highlightBorder, .secondaryActions .menuItem:hover .highlightBorder {
+        background-color: #fff;
+        transition: all ease-in-out 140ms;
+        transition-delay: 140ms;
+        position: absolute;
+        bottom:0;
+        height:3px;
+        left: auto;
+        right: 0;
+        width: 100%;
+        border-radius: 3px 3px 0 0;
+    }
+
+    .article-meta .articleMeta-stacked .button.confirm {
+
+        margin-left:0;
+    }
+}

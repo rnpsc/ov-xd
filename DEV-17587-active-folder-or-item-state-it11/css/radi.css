@@ -1,0 +1,264 @@
+.radi-0 {
+    border-radius:0;
+}
+.radi-1 {
+    border-radius:1px
+}
+.radi-2 {
+    border-radius:2px
+}
+.radi-3 {
+    border-radius:3px;
+}
+.radi-4 {
+    border-radius:4px
+}
+.radi-5 {
+    border-radius: 5px;
+}
+.radi-6 {
+    border-radius: 6px;
+}
+.radi-7 {
+    border-radius: 7px;
+}
+.radi-8 {
+    border-radius: 8px;
+}
+.radi-9 {
+    border-radius: 9px;
+}
+.radi-10 {
+    border-radius: 10px;
+}
+.radi-12 {
+    border-radius: 12px;
+}
+.radi-14 {
+    border-radius: 14px;
+}
+.radi-16 {
+    border-radius: 16px;
+}
+.radi-18 {
+    border-radius: 18px;
+}
+.radi-20 {
+    border-radius: 20px;
+}
+.radi-100 {
+    border-radius: 50%;
+}
+
+@media (min-width:576px) {
+    .radi-sm-0 {
+        border-radius:0;
+    }
+    .radi-sm-1 {
+        border-radius:1px
+    }
+    .radi-sm-2 {
+        border-radius:2px
+    }
+    .radi-sm-3 {
+        border-radius:3px;
+    }
+    .radi-sm-4 {
+        border-radius:4px
+    }
+    .radi-sm-5 {
+        border-radius: 5px;
+    }
+    .radi-sm-6 {
+        border-radius: 6px;
+    }
+    .radi-sm-7 {
+        border-radius: 7px;
+    }
+    .radi-sm-8 {
+        border-radius: 8px;
+    }
+    .radi-sm-9 {
+        border-radius: 9px;
+    }
+    .radi-sm-10 {
+        border-radius: 10px;
+    }
+    .radi-sm-12 {
+        border-radius: 12px;
+    }
+    .radi-sm-14 {
+        border-radius: 14px;
+    }
+    .radi-sm-16 {
+        border-radius: 16px;
+    }
+    .radi-sm-18 {
+        border-radius: 18px;
+    }
+    .radi-sm-20 {
+        border-radius: 20px;
+    }
+    .radi-sm-100 {
+        border-radius: 50%;
+    }
+}
+@media (min-width:768px) {
+    .radi-md-0 {
+        border-radius:0;
+    }
+    .radi-md-1 {
+        border-radius:1px
+    }
+    .radi-md-2 {
+        border-radius:2px
+    }
+    .radi-md-3 {
+        border-radius:3px;
+    }
+    .radi-md-4 {
+        border-radius:4px
+    }
+    .radi-md-5 {
+        border-radius: 5px;
+    }
+    .radi-md-6 {
+        border-radius: 6px;
+    }
+    .radi-md-7 {
+        border-radius: 7px;
+    }
+    .radi-md-8 {
+        border-radius: 8px;
+    }
+    .radi-md-9 {
+        border-radius: 9px;
+    }
+    .radi-md-10 {
+        border-radius: 10px;
+    }
+    .radi-md-12 {
+        border-radius: 12px;
+    }
+    .radi-md-14 {
+        border-radius: 14px;
+    }
+    .radi-md-16 {
+        border-radius: 16px;
+    }
+    .radi-md-18 {
+        border-radius: 18px;
+    }
+    .radi-md-20 {
+        border-radius: 20px;
+    }
+    .radi-md-100 {
+        border-radius: 50%;
+    }
+}
+@media (min-width:992px){
+    .radi-lg-0 {
+        border-radius:0;
+    }
+    .radi-lg-1 {
+        border-radius:1px
+    }
+    .radi-lg-2 {
+        border-radius:2px
+    }
+    .radi-lg-3 {
+        border-radius:3px;
+    }
+    .radi-lg-4 {
+        border-radius:4px
+    }
+    .radi-lg-5 {
+        border-radius: 5px;
+    }
+    .radi-lg-6 {
+        border-radius: 6px;
+    }
+    .radi-lg-7 {
+        border-radius: 7px;
+    }
+    .radi-lg-8 {
+        border-radius: 8px;
+    }
+    .radi-lg-9 {
+        border-radius: 9px;
+    }
+    .radi-lg-10 {
+        border-radius: 10px;
+    }
+    .radi-lg-12 {
+        border-radius: 12px;
+    }
+    .radi-lg-14 {
+        border-radius: 14px;
+    }
+    .radi-lg-16 {
+        border-radius: 16px;
+    }
+    .radi-lg-18 {
+        border-radius: 18px;
+    }
+    .radi-lg-20 {
+        border-radius: 20px;
+    }
+    .radi-lg-100 {
+        border-radius: 50%;
+    }
+}
+@media (min-width:1200px){
+    .radi-xl-0 {
+        border-radius:0;
+    }
+    .radi-xl-1 {
+        border-radius:1px
+    }
+    .radi-xl-2 {
+        border-radius:2px
+    }
+    .radi-xl-3 {
+        border-radius:3px;
+    }
+    .radi-xl-4 {
+        border-radius:4px
+    }
+    .radi-xl-5 {
+        border-radius: 5px;
+    }
+    .radi-xl-6 {
+        border-radius: 6px;
+    }
+    .radi-xl-7 {
+        border-radius: 7px;
+    }
+    .radi-xl-8 {
+        border-radius: 8px;
+    }
+    .radi-xl-9 {
+        border-radius: 9px;
+    }
+    .radi-xl-10 {
+        border-radius: 10px;
+    }
+    .radi-xl-12 {
+        border-radius: 12px;
+    }
+    .radi-xl-14 {
+        border-radius: 14px;
+    }
+    .radi-xl-16 {
+        border-radius: 16px;
+    }
+    .radi-xl-18 {
+        border-radius: 18px;
+    }
+    .radi-xl-20 {
+        border-radius: 20px;
+    }
+    .radi-xl-100 {
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,632 @@
+/*!
+ * Design and development of this functional prototype 7a
+ * Copyright 2020 Ronny Puschmann
+ * https://ronnypuschmann.de
+ */
+
+.extUI {
+    position: fixed;
+    border: solid 0px #eee;
+    border-radius: 4px 0 0 4px;
+    align-items:center;
+    align-content: center;
+    justify-content: center;
+    right:0.5rem;
+    bottom:0.25rem;
+
+    flex-direction: column;
+    cursor:pointer;
+    display:flex;
+    letter-spacing: 0px !important ;
+    font-size: 1rem !important;
+    padding: 0.4375rem 0.25rem;
+    transition: all 140ms ease-in-out;
+    letter-spacing: 0px !important ;
+    font-family: "FiraGO", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !Important;
+}
+.extUI:hover {
+
+}
+.extUI span,
+.extUI a {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 2.125rem;
+    height: 2.125rem;
+    margin: 6px 0 0;
+    border-radius: 60px;
+    background: rgba(0,0,0,0.04);
+    letter-spacing: 0px !important ;
+    font-family: "FiraGO", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif !Important;
+    color: rgba(0,0,0,0.5) !important;
+    font-size: 0.875rem !important;
+    transition: color 140ms ease-in-out;
+    text-decoration: none;
+}
+
+.extUI span:hover,
+.extUI span.active,
+.extUI a:hover,
+.extUI a.active{
+    color: rgba(0,0,0,0.8)  !important;
+    background: rgba(0,0,0,0.07);
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .header {
+    border: solid 2px #50E3C2;
+    position: relative;
+}
+
+body.showUIAreas .header:before {
+    content: 'header';
+    position: absolute;
+    left: 1rem;
+    padding: 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .topBar {
+    position: relative;
+}
+
+body.showUIAreas .topBar:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .topBar:hover:before {
+    content: 'topBar';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .topBar-leftWrapper {
+    position: relative;
+}
+
+body.showUIAreas .topBar-leftWrapper:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .topBar-leftWrapper:hover:before {
+    content: 'topBar-leftWrapper';
+    position: absolute;
+    top:0.25rem;
+    right: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .account {
+    position: relative;
+}
+
+body.showUIAreas .account:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .account:hover:before {
+    content: 'account';
+    position: absolute;
+    top:0.25rem;
+    right: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .userNotifications {
+    position: relative;
+}
+
+body.showUIAreas .userNotifications:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .userNotifications:hover:before {
+    content: 'userNotifications';
+    position: absolute;
+    top:0.25rem;
+    right: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .navigationHeader {
+    position: relative;
+}
+
+body.showUIAreas .navigationHeader:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .navigationHeader:hover:before {
+    content: 'navigationHeader';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .primaryActions {
+    position: relative;
+}
+
+body.showUIAreas .primaryActions:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .primaryActions:hover:before  {
+    content: 'primaryActions';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .secondaryActions {
+    position: relative;
+}
+
+body.showUIAreas .secondaryActions:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .secondaryActions:hover:before  {
+    content: 'secondaryActions';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .content {
+    border: solid 2px #50E3C2;
+    position: relative;
+}
+
+body.showUIAreas .content:before {
+    content: 'content';
+    position: absolute;
+    left: 1rem;
+    padding: 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .contentWrapper-left {
+    position: relative;
+}
+
+body.showUIAreas .contentWrapper-left:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .contentWrapper-left:hover:before  {
+    content: 'contentWrapper-left [tableau] ';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .contentWrapper-left-sticky-header {
+    position: relative;
+}
+
+body.showUIAreas .contentWrapper-left-sticky-header:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .contentWrapper-left-sticky-header:hover:before  {
+    content: 'content-left-sticky-header';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .breadcrumb {
+    position: relative;
+}
+
+body.showUIAreas .breadcrumb:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .breadcrumb:hover:before  {
+    content: 'breadcrumbs';
+    position: absolute;
+    top:0.125rem;
+    right: 0.125rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .contentWrapper-left-scroll-area-barrier {
+    position: relative;
+}
+
+body.showUIAreas .contentWrapper-left-scroll-area-barrier:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .contentWrapper-left-scroll-area-barrier:hover:before  {
+    content: 'contentWrapper-left-scroll-area';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .article-item{
+    position: relative;
+}
+
+body.showUIAreas .article-item:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .article-item:hover:after  {
+    content: 'articleItem';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .article-item .ui {
+    position: relative;
+}
+
+body.showUIAreas .article-item .ui:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .article-item .ui:hover:after  {
+    content: 'tertiaryActions';
+    position: absolute;
+    top:0.5rem;
+    left: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .folderItem{
+    position: relative;
+}
+
+body.showUIAreas .folderItem:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .folderItem:hover:after  {
+    content: 'folderItem';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .articleMeta-stacked {
+    position: relative;
+}
+
+body.showUIAreas .articleMeta-stacked:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .articleMeta-stacked:hover:after  {
+    content: 'articleMeta-stacked';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .contentWrapper-right {
+    position: relative;
+}
+
+body.showUIAreas .contentWrapper-right:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .contentWrapper-right:hover:after {
+    content: 'contentWrapper-right [Shelf]';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .itemWithinFolder, body.showUIAreas .folder {
+    position: relative;
+}
+
+body.showUIAreas .itemWithinFolder:hover, body.showUIAreas .folder:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .itemWithinFolder:hover:after {
+    content: 'itemWithinFolder';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+
+body.showUIAreas .folder:hover:after {
+    content: 'folderItem';
+    position: absolute;
+    top:0.5rem;
+    right: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+/**************************************************** SECTION */
+body.showUIAreas .legend {
+    position: relative;
+}
+
+body.showUIAreas .legend:hover {
+    border: solid 1px #50E3C2;
+}
+
+body.showUIAreas .legend:hover:after {
+    content: 'legend';
+    position: absolute;
+    top:0.5rem;
+    left: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: #50E3C2;
+    color: #000;
+    font-family: 'Fira Mono', sans-serif;
+    border-radius: 2px;
+    z-index: 100;
+    letter-spacing:0;
+}
+
+
+
+body.markMotion .hasTransition,
+body.markMotion .modal-body .level-0 .hasTransition,
+body.markMotion .modal-body .level-1 .hasTransition,
+body.markMotion .modal-body .level-2 .hasTransition,
+body.markMotion .modal-body .level-3 .hasTransition,
+body.markMotion .modal-body .level-4 .hasTransition,
+body.markMotion .modal-body .folder .folder-title .hasTransition,
+body.markMotion .levitate.hasTransition,
+body.markMotion .ajax {
+    border-bottom: solid 0px #50E3C2 !important;
+}
+
+.extUI .hasTitle {
+    position: relative;
+}
+.extUI *[data-title]:after {
+    content: attr(data-title);
+    position: absolute;
+    margin-top: 2px;
+    right: 125%;
+    font-family:'FiraGO', '-apple-system',
+    'BlinkMacSystemFont',
+    '"Segoe UI"',
+    'Roboto',
+    'Helvetica Neue',
+    'Arial',
+    'sans-serif',
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol';
+    background-color: #333;
+    color: white;
+    border-radius: 3px;
+    font-size: 12px;
+    z-index:9999;
+    padding: 0.3125rem .5rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity ease-in-out 140ms;
+    transition-delay: 420ms;
+    text-align: center;
+    line-height:1.125;
+    display: inline-block;
+    white-space: nowrap;
+    letter-spacing: 0.1px !important
+}
+
+.extUI *[data-title]:hover:after {
+    opacity: 1;
+    visibility: visible;
+}

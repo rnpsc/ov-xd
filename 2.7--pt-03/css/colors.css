@@ -1,0 +1,20 @@
+.bg.palette.error.main {
+    background: #FF4747;
+}
+.text.palette.error.main {
+    color: #FF4747;
+}
+
+#HW_badge {
+    background: #FBF186;
+
+    color: #212121 ;
+    border-radius: 50px;
+}
+#HW_badge.HW_softHidden {
+    background: #EEEEEE;
+    background: #1455B4;
+}
+.HW_badge_cont:hover #HW_badge.HW_softHidden {
+    background: #FBF186;
+}

@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'protodaysblocks';
+    src: url('//2ttf.com/webfont/FHYxgJLnRAM/webfont.ttf') format('truetype');
+}
+
+html.blocks  *:not(i), html.blocks  input::placeholder {
+    font-family: 'protodaysblocks' ;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0;
+    letter-spacing: -1px !important;
+    text-decoration: none !important;
+    color: rgba(66,66,66,0.2);
+    font-size: 14px;
+}
+
+html.blocks .header *,
+html.blocks .menuItem-label,
+html.blocks .menuItem i,
+html.blocks .mode-switch:not(.switch) .read-label *,
+html.blocks .commentActions .commentBtn {
+    color: rgba(255,255,255,0.3) !important;
+}
+
+html.blocks .topBar .search input,
+html.blocks  input::placeholder,
+html.blocks .header .topBar .search input:focus,
+html.blocks .header .topBar .search input:focus::-webkit-input-placeholder,
+html.blocks .commentArea[placeholder]:empty:before {
+    font-family: 'protodaysblocks' ;
+    color: rgba(66,66,66,0.2) !important;
+}

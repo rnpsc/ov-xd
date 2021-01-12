@@ -1,0 +1,10 @@
+.material-icons {
+    font-size: 18px
+}
+.mdc-tab__content {
+    display: flex;
+    align-items: center;
+}
+.mdc-tab-scroller__scroll-content {
+    flex: 0;
+}

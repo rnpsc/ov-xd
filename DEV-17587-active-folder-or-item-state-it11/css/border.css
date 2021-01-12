@@ -1,0 +1,39 @@
+
+
+@media (min-width:375px) {
+    .border-sm-bottom {
+        border-style: solid ;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 1px ;
+        border-left-width: 0;
+    }
+}
+@media (min-width:768px) {
+    .border-md-bottom {
+        border-style: solid ;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 1px ;
+        border-left-width: 0;
+    }
+}
+@media (min-width:992px){
+    .border-lg-bottom {
+        border-style: solid ;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 1px ;
+        border-left-width: 0;
+    }
+}
+@media (min-width:1200px){
+    .border-xl-bottom {
+        border-style: solid ;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 1px ;
+        border-left-width: 0;
+
+    }
+}

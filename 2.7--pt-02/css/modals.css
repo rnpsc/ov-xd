@@ -1,0 +1,30 @@
+.modal.metadata {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal.metadata .modalBody {
+    width: calc(100% - 64px);
+    max-width: 474px;
+    display: flex;
+    max-height: calc(100% - 64px);
+    flex-direction: column;
+    margin: 32px;
+    margin: 2vw auto;
+    max-width: 474px;
+    overflow-y: auto;
+    z-index: 1000;
+    transition-delay: 140ms;
+    transition: all ease-in-out 140ms;
+    position: relative
+}
+
+.inputWrap {
+    display:flex;
+}
+.addFieldName {
+    display:flex;
+    flex:1;
+
+}

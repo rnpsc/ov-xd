@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'protodayswhiteboard';
+    src: url('//2ttf.com/webfont/F1XbDQV22Ka/webfont.ttf') format('truetype');
+}
+
+html.protodayswhiteboard {
+}
+
+html.protodayswhiteboard  *:not(i),
+html.protodayswhiteboard  input::placeholder,
+html.protodayswhiteboard .primaryActions .menuItem.active .menuItem-label {
+    font-family: 'protodayswhiteboard' ;
+    font-weight: normal;
+    letter-spacing: -1px ;
+    text-decoration: none ;
+    color: rgba(66,66,66,0.95) ;
+}
+
+html.protodayswhiteboard .header *,
+html.protodayswhiteboard .menuItem-label,
+html.protodayswhiteboard .menuItem i,
+html.protodayswhiteboard .mode-switch:not(.switch) .read-label *,
+html.protodayswhiteboard .mode-switch.switch .draft-label *,
+html.protodayswhiteboard .article-meta .articleMeta-stacked .button.confirm {
+    color: rgba(255,255,255,0.95) !important ;
+}
+html.protodayswhiteboard .primaryActions .menuItem.active .menuItem-label{
+    color: rgba(66,66,66,0.95) !important;
+}
+
+html.protodayswhiteboard .topBar .search input,
+html.protodayswhiteboard  input::placeholder,
+html.protodayswhiteboard .header .topBar .search input:focus,
+html.protodayswhiteboard .header .topBar .search input:focus::-webkit-input-placeholder {
+    font-family: 'protodayswhiteboard' ;
+    color: rgba(66,66,66,0.95) ;
+}
+

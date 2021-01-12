@@ -1,0 +1,345 @@
+h1, .mui-h1 {
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 31px;
+    line-height: 1.9375rem;
+    font-weight: 600;
+    letter-spacing: -.24px;
+}
+
+h2, .mui-h2 {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height:28px;
+    line-height: 1.75rem;
+    font-weight: 600;
+    letter-spacing: .16px;
+}
+h3, .mui-h3 {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height:25px;
+    line-height: 1.5625rem;
+    font-weight: 600;
+    letter-spacing: .24px;
+}
+h4, .mui-h4 {
+    margin-top: 0;
+    font-weight:600;
+    font-size: 0.9375rem;
+    letter-spacing: 0.16px;
+    line-height: 1.5625rem;
+}
+
+.leadtext {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height:28px;
+    font-weight: 400;
+    letter-spacing: -.12px;
+}
+
+p, .mui-body1 {
+    margin-top: 0;
+    font-weight:400;
+    font-size: 0.9375rem;
+    letter-spacing: -0.12px;
+    line-height: 1.5625rem;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+.fas:before, .fab:before, .far:before, .fal:before {
+    text-align: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption, .caption {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    color:#616161;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-bottom: solid 0px #eee;
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.font-size-100 {
+    font-size:10px;
+}
+.font-size-110 {
+    font-size: 11px;
+}
+.font-size-120 {
+    font-size: 12px;
+}
+.font-size-130 {
+    font-size: 13px;
+}
+.font-size-140 {
+    font-size: 14px;
+}
+.font-size-150 {
+    font-size: 15px;
+}
+.font-size-160 {
+    font-size: 16px;
+}
+.font-size-170 {
+    font-size: 17px;
+}
+.font-size-180 {
+    font-size: 18px;
+}
+.font-size-190 {
+    font-size: 19px;
+}
+.font-size-200 {
+    font-size: 20px;
+}
+.font-size-210 {
+    font-size: 21px;
+}
+.font-size-220 {
+    font-size: 22px;
+}
+
+@media (min-width:576px) {
+    .font-size-sm-100 {
+        font-size:10px;
+    }
+    .font-size-sm-110 {
+        font-size: 11px;
+    }
+    .font-size-sm-120 {
+        font-size: 12px;
+    }
+    .font-size-sm-130 {
+        font-size: 13px;
+    }
+    .font-size-sm-140 {
+        font-size: 14px;
+    }
+    .font-size-sm-150 {
+        font-size: 15px;
+    }
+    .font-size-sm-160 {
+        font-size: 16px;
+    }
+    .font-size-sm-170 {
+        font-size: 17px;
+    }
+    .font-size-sm-180 {
+        font-size: 18px;
+    }
+    .font-size-sm-190 {
+        font-size: 19px;
+    }
+    .font-size-sm-200 {
+        font-size: 20px;
+    }
+    .font-size-sm-210 {
+        font-size: 21px;
+    }
+    .font-size-sm-220 {
+        font-size: 22px;
+    }
+    .text-align-sm-right {
+        text-align: right;
+    }
+    .text-align-sm-left {
+        text-align: left;
+    }
+}
+@media (min-width:768px) {
+    .font-size-md-100 {
+        font-size:10px;
+    }
+    .font-size-md-110 {
+        font-size: 11px;
+    }
+    .font-size-md-120 {
+        font-size: 12px;
+    }
+    .font-size-md-130 {
+        font-size: 13px;
+    }
+    .font-size-md-140 {
+        font-size: 14px;
+    }
+    .font-size-md-150 {
+        font-size: 15px;
+    }
+    .font-size-md-160 {
+        font-size: 16px;
+    }
+    .font-size-md-170 {
+        font-size: 17px;
+    }
+    .font-size-md-180 {
+        font-size: 18px;
+    }
+    .font-size-md-190 {
+        font-size: 19px;
+    }
+    .font-size-md-200 {
+        font-size: 20px;
+    }
+    .font-size-md-210 {
+        font-size: 21px;
+    }
+    .font-size-md-220 {
+        font-size: 22px;
+    }
+
+    .text-align-md-right {
+        text-align: right;
+    }
+    .text-align-md-left {
+        text-align: left;
+    }
+}
+@media (min-width:992px){
+    .font-size-lg-100 {
+        font-size:10px;
+    }
+    .font-size-lg-110 {
+        font-size: 11px;
+    }
+    .font-size-lg-120 {
+        font-size: 12px;
+    }
+    .font-size-lg-130 {
+        font-size: 13px;
+    }
+    .font-size-lg-140 {
+        font-size: 14px;
+    }
+    .font-size-lg-150 {
+        font-size: 15px;
+    }
+    .font-size-lg-160 {
+        font-size: 16px;
+    }
+    .font-size-lg-170 {
+        font-size: 17px;
+    }
+    .font-size-lg-180 {
+        font-size: 18px;
+    }
+    .font-size-lg-190 {
+        font-size: 19px;
+    }
+    .font-size-lg-200 {
+        font-size: 20px;
+    }
+    .font-size-lg-210 {
+        font-size: 21px;
+    }
+    .font-size-lg-220 {
+        font-size: 22px;
+    }
+    .text-align-lg-right {
+        text-align: right;
+    }
+    .text-align-lg-left {
+        text-align: left;
+    }
+}
+@media (min-width:1200px){
+    .font-size-xl-100 {
+        font-size:10px;
+    }
+    .font-size-xl-110 {
+        font-size: 11px;
+    }
+    .font-size-xl-120 {
+        font-size: 12px;
+    }
+    .font-size-xl-130 {
+        font-size: 13px;
+    }
+    .font-size-xl-140 {
+        font-size: 14px;
+    }
+    .font-size-xl-150 {
+        font-size: 15px;
+    }
+    .font-size-xl-160 {
+        font-size: 16px;
+    }
+    .font-size-xl-170 {
+        font-size: 17px;
+    }
+    .font-size-xl-180 {
+        font-size: 18px;
+    }
+    .font-size-xl-190 {
+        font-size: 19px;
+    }
+    .font-size-xl-200 {
+        font-size: 20px;
+    }
+    .font-size-xl-210 {
+        font-size: 21px;
+    }
+    .font-size-xl-220 {
+        font-size: 22px;
+    }
+    .text-align-xl-right {
+        text-align: right;
+    }
+    .text-align-xl-left {
+        text-align: left;
+    }
+}
+
+.font-weight-100 {
+    font-weight: 100;
+}
+.font-weight-200 {
+    font-weight: 200;
+}
+.font-weight-300 {
+    font-weight: 300;
+}
+.font-weight-400 {
+    font-weight: 400;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-600 {
+    font-weight: 600;
+}
+.font-weight-700 {
+    font-weight: 700;
+}
+.font-weight-800 {
+    font-weight: 800;
+}
+.font-weight-900 {
+    font-weight: 900;
+}
+
+
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
