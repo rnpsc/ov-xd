@@ -1,7 +1,0 @@
-.button.bg {
-    transition: all 140ms ease-in-out;
-}
-.button:hover {
-    background: rgb(var(--sky-900));
-    color: #fff;
-}
